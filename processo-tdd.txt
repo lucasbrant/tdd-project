@@ -1,0 +1,3 @@
+Como estamos usando testes funcionais e testes de unidade, o processo apresentado na imagem e um pouco mais especifico do que o processo de tdd generico. Primeiro desenvolvemos um teste funcional, enquanto esse teste nao passar, implementamos um teste de unidade e iteramos o processo a partir dele ate que o teste de unidade passe e que o codigo nao precise de refatoracao. 
+
+Feito isso, rodamos novamente o teste funcional, se ele falhar ou necessitar de refatoracao, criamos outro teste de unidade e repetimos o processo, caso contrario, criamos um novo testet funcional e damos continuidade no processo.
